@@ -34,6 +34,11 @@ try:
         pi.write(PIN_A, 0)
         pi.write(PIN_B, 0)
         time.sleep(QUARTER_PERIOD_US / 1000000)
+
+        # while if time の　調整　Add 2025.03.27
+        time.sleep(QUARTER_PERIOD_US / 1000000)
+
+
         
         # 状態3: PIN_A LOW, PIN_B HIGH
         pi.write(PIN_A, 0)
